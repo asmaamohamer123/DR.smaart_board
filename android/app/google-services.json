@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "319868585793",
+    "project_id": "smart-board-9c23c",
+    "storage_bucket": "smart-board-9c23c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319868585793:android:61b6d10d6b35a4d59f43c0",
+        "android_client_info": {
+          "package_name": "com.example.attendance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYqa9KlZqHc1C4BqnYAIOOx56dQ7EHcB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319868585793:android:01fdf906db23f5fd9f43c0",
+        "android_client_info": {
+          "package_name": "com.example.smartboard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYqa9KlZqHc1C4BqnYAIOOx56dQ7EHcB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
