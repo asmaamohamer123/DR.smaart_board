@@ -149,16 +149,20 @@ class _QuizListPageState extends State<QuizListPage> {
     return await showDialog<bool>(
           context: context,
           builder: (context) => AlertDialog(
-            title: const Text('Confirm Deletion'),
-            content: const Text('Are you sure you want to delete this quiz?'),
+           // title: const Text('Confirm Deletion'),
+            title: const Text('حذف الكويز'),
+           // content: const Text('Are you sure you want to delete this quiz?'),
+            content: const Text('هل انت متاكد من حذف هذا الكوير'),
             actions: [
               TextButton(
                 onPressed: () => Navigator.of(context).pop(false),
-                child: const Text('Cancel'),
+                //child: const Text('Cancel'),
+                    child: const Text('الغاء'),
               ),
               TextButton(
                 onPressed: () => Navigator.of(context).pop(true),
-                child: const Text('Delete'),
+               //child: const Text('Delete'),
+                child: const Text('حذف'),
               ),
             ],
           ),

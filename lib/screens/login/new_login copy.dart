@@ -42,7 +42,7 @@ class _LoginScreenState extends State<LoginScreen> {
           children: [
             CircularProgressIndicator(),
             SizedBox(width: 20),
-            Text(' ...جاري تسجيل الدخول'),
+            Text('جاري تسجيل الدخول...'),
           ],
         ),
       ),
